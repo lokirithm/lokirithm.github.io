@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import Experience from './pages/Experience/Experience';
 import Education from './pages/Education/Education';
-import Articles from './pages/Articles/Articles';
 import OpenSource from './pages/OpenSource/OpenSource';
 import Contact from './pages/Contact/Contact';
 import NotFound from './pages/NotFound/NotFound';
@@ -43,7 +42,6 @@ function App() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/education" element={<Education />} />
-              <Route path="/articles" element={<Articles />} />
               <Route path="/open-source" element={<OpenSource />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
