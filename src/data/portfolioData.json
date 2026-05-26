@@ -47,10 +47,6 @@
       "label": "Education"
     },
     {
-      "path": "/articles",
-      "label": "Articles"
-    },
-    {
       "path": "/open-source",
       "label": "Open Source"
     },
